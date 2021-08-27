@@ -35,5 +35,4 @@ tk.Radiobutton(parent, text="Down", value=2).grid(
     row=3, column=7, columnspan=2, sticky="e"
 )
 
-
 parent.mainloop()
