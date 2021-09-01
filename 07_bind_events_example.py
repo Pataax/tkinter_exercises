@@ -11,7 +11,8 @@ def show_event_details(event):
 
 
 root = tk.Tk()
-button = tk.Button(root, text="Button Bound to: \n Keyboard Enter & Mouse click")
+button = tk.Button(
+    root, text="Button Bound to: \n Keyboard Enter & Mouse click")
 button.pack(pady=5, padx=4)
 button.focus_force()
 button.bind("<Button-1>", show_event_details)
